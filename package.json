@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Tinder For Developers",
   "main": "index.js",
+    "type": "module",
   "scripts": {
-    "start":"node src/app.js",
-    "dev":"nodemon src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "nodejs",
@@ -14,6 +15,8 @@
   "author": "Pradeep Jangid",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
   }
 }
